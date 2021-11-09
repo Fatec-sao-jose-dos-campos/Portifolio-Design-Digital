@@ -7,7 +7,7 @@
         }
 
         .backgroundPerfil {
-            background-image: url(img/background_perfil.jpg);
+            background-image: url(../img/background_perfil.jpg);
             border-radius: 0 !important;
             grid-area: auto !important;
         }
@@ -72,9 +72,10 @@
             font-size: 2rem;
           }
           
-          @media (min-width: 1200px) {
+          @media screen and (min-width: 1200px) {
             h1 {
-              font-size: 4rem;
+              font-size: 4rem !important;
+              
             }
           } 
-        
+
