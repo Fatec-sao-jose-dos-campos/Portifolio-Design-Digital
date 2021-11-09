@@ -19,7 +19,7 @@ Este portifolio foi desenvolvido com o objetivo de me apresentar e mostrar algun
 | ------ | ------ |
 |    22/09/2021    |[Entrega Parcial 1](https://github.com/prsilva/Portifolio-Design-Digital/releases/tag/Entrega-01)|
 |    14/11/2021    |[Entrega Parcial 2](https://github.com/prsilva/Portifolio-Design-Digital/releases/tag/Entrega-02)|
-|    
+  
 
 
 ## Segue abaixo o link do vídeo explicativo sobre o portifolio. 
