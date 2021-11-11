@@ -10,6 +10,7 @@
             background-image: url(../img/background_perfil.jpg);
             border-radius: 0 !important;
             grid-area: auto !important;
+            background-size: cover;
         }
 
         .corPrimaria {
