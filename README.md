@@ -25,4 +25,4 @@ Este portifolio foi desenvolvido com o objetivo de me apresentar e mostrar os co
 
 ## Segue abaixo o link do vídeo explicativo sobre o portifolio. 
 
-https://youtu.be/yy-_899O71E
+https://youtu.be/VxDLPuyo8JA
