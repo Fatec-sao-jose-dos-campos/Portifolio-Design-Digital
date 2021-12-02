@@ -1,6 +1,5 @@
 <!DOCTYPE html>
-<html lang="pt">
-
+<html lang="en">
 <head>
     {% block head %}
     <meta charset="UTF-8">
@@ -24,7 +23,7 @@
 </head>
 
 <body>
-    {% block nav &}
+    {% block nav %}
     <nav class="corSecundaria navbar navbar-expand-lg navbar-light">
         <a class="navbar-brand textoBranco" href="#">Home</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
@@ -37,53 +36,21 @@
             </ul>
             <ul class="navbar-nav">
                 <li class="nav-item">
-                    <a class="nav-link textoBranco" href="projetos.html">Projetos</a>
+                    <a class="nav-link textoBranco" href="/projetos">Projetos</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link textoBranco" href="sobre-mim.html">Sobre</a>
+                    <a class="nav-link textoBranco" href="/sobre_mim">Sobre</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link textoBranco" href="tela-home.html">Contato</a>
+                    <a class="nav-link textoBranco" href="/">Contato</a>
                 </li>
             </ul>
         </div>
-        {% endblock %}
     </nav>
+    {% endblock %}
     {% block contents %}
-    <section class="jumbotron text-center backgroundPerfil">
-        <div class="container">
-            <img class="foto-perfil"
-                src="https://media-exp1.licdn.com/dms/image/C4E03AQEEq-1yiKAJ5w/profile-displayphoto-shrink_800_800/0/1630768460272?e=1637193600&v=beta&t=OgC6rYBcwScIrGfAPuR0IUGqKXTbeC-R8Z2dIc7hvq0"
-                alt="Foto Perfil">
-            <h1 class="jumbotron-heading textoBranco">Priscila Silva</h1>
-            <p class="lead textoBranco">Estudante Universitária em Desenvolvimento de Sotfware Multiplataforma na
-                Instituição de Ensino Fatec São José dos Campos Prof. Jessen Vidal.
-            </p>
-
-            <a href="https://www.linkedin.com/in/priscilasilva1801/"><i class="textoBranco fab fa-linkedin"></i></a>
-            <a href="https://github.com/prsilva"><i class="textoBranco fab fa-github"></i></a>
-            <a href="https://codepen.io/priselahh"><i class="textoBranco fab fa-codepen"></i></a>
-        </div>
-    </section>
-
-    <!--Contato-->
-    <section class='corPrimaria' id="contato">
-        <div>
-            <div class="container-fluid">
-                <h3 style="padding-top:60px" class="text-center titulosBrancos">Contato</h3>
-                <a href="https://api.whatsapp.com/send?phone=5512991809554">
-                    <h4 style="padding-bottom: 16px; margin-bottom: 0px;" class="text-center">
-                        Whatsapp</h4>
-                </a>
-                <a href="mailto:priscila.silva140@fatec.sp.gov.br">
-                    <h4 style="padding-bottom: 60px; margin-bottom: 0px;" class="text-center">
-                        priscila.silva140@fatec.sp.gov.br</h4>
-                </a>
-            </div>
-        </div>
-    </section>
-
-
+    {% endblock %}
+    {% block footer%}
     <!--Footer-->
     <footer class="text-center corSecundaria textoFooter">
         <p class="textoBranco">Copyright 2021</p>
@@ -99,9 +66,6 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
         integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
         crossorigin="anonymous"></script>
-    {% endblock contents %}
+    {% endblock %}
 </body>
-
 </html>
-
-
