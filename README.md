@@ -12,6 +12,7 @@ Este portifolio foi desenvolvido com o objetivo de me apresentar e mostrar os co
 - Boostrap
 - Visual Studio Code
 - GIT
+- Heroku
 
 
 ## Cronograma de Entregas
@@ -20,8 +21,10 @@ Este portifolio foi desenvolvido com o objetivo de me apresentar e mostrar os co
 | ------ | ------ |
 |    22/09/2021    |[Entrega Parcial 1](https://github.com/prsilva/Portifolio-Design-Digital/releases/tag/0.0.1)|
 |    14/11/2021    |[Entrega Parcial 2](https://github.com/prsilva/Portifolio-Design-Digital/releases/tag/0.0.2)|
+|    06/12/2021    |[Entrega Final](https://github.com/prsilva/Portifolio-Design-Digital/releases/tag/0.0.3)|
   
-
+## Acesso da aplicação no Heroku
+https://meu-portifolio-01.herokuapp.com/
 
 ## Segue abaixo o link do vídeo explicativo sobre o portifolio. 
 
