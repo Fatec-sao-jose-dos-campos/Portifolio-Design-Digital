@@ -26,6 +26,3 @@ Este portifolio foi desenvolvido com o objetivo de me apresentar e mostrar os co
 ## Acesso da aplicação no Heroku
 https://meu-portifolio-01.herokuapp.com/
 
-## Segue abaixo o link do vídeo explicativo sobre o portifolio. 
-
-https://youtu.be/VxDLPuyo8JA
